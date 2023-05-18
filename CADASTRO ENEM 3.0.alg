@@ -1,8 +1,8 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o :
 // Autor :
 // Data : 27/04/2023
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 nome,nomemae,nomepai,datanascimento,escolhaescola:caractere
 rendafamiliar,quantaspessoas,carro,moto,gela,freezer,lavar,seca,cel,tv,micro,tvassin:inteiro
@@ -10,24 +10,24 @@ insecao:real
 enem,senha,confirmasenha,cpf,cpfcons,confirme,modal,estudo:inteiro
 opum,opdois,potres,opquatro,opcinco:real
 inicio
-// SeÁ„o de Comandos
-
+// Se√ß√£o de Comandos
+//afafaf
 ESCREVAL("SEJA BEM VINDO(A)")
 ESCREVAL("ENEM 2023")
-ESCREVAL("1-ISEN«√O")
-ESCREVAL("2-INSCRI«√O")
+ESCREVAL("1-ISEN√á√ÉO")
+ESCREVAL("2-INSCRI√á√ÉO")
 ESCREVAL("3-CONSULTA")
 ESCREVAL("0-SAIR")
 LEIA(enem)
 
-//ISEN«√O
+//ISEN√á√ÉO
 
 SE(enem=1)ENTAO
 ESCREVAL("NOME COMPLETO")
 LEIA(nome)
 ESCREVAL("INFORME SEU CPF")
 LEIA(cpf)
-ESCREVAL("NOME DA M√E")
+ESCREVAL("NOME DA M√ÉE")
 LEIA(nomemae)
 ESCREVAL("NOME DO PAI")
 LEIA(nomepai)
@@ -45,13 +45,13 @@ ESCREVAL("DIGITE 1 PUBLICA")
 ESCREVAL("DIGITE 2 PARTICULAR")
 LEIA(escolhaescola)
 
-ESCREVAL("EM QUAL ANO DO ENSINO MEDIO VOCÍ ESTA?")
+ESCREVAL("EM QUAL ANO DO ENSINO MEDIO VOC√™ ESTA?")
 ESCREVAL("DIGITE 2 PARA SEGUNDO ANO")
 ESCREVAL("DIGITE 3 PARA TERCEIRO ANO")
 LEIA(estudo)
 
 
-//FIM DA INSE«√O
+//FIM DA INSE√á√ÉO
 
 //INICIO DO CADASTRO DE SENHA
 REPITA
@@ -63,7 +63,7 @@ SE senha=confirmasenha ENTAO
 ESCREVAL("SENHA CADRASTADA COM SUCESSO")
 SENAO
 SE senha<>confirmasenha ENTAO
-ESCREVAL("SENHAS N√O CORRESPONDENTES")
+ESCREVAL("SENHAS N√ÉO CORRESPONDENTES")
 FIMSE
 FIMSE
 ATE senha=confirmasenha
@@ -106,41 +106,41 @@ LEIA(tvassin)
 
 //FIM DO SOCIO ECONOMICO
 
-//INICIO DA VALIDA«√O DA ISEN«√O
+//INICIO DA VALIDA√á√ÉO DA ISEN√á√ÉO
 SE(escolhaescola=1)e(rendafamiliar<opum)ENTAO
 SE(carro>1)e(moto>1)ENTAO
 SE(gela<1)e(freezer<0)ENTAO
 SE(lav<1)e(seca>0)ENTAO
 SE(tv<1)e(tvassin<1)ENTAO
-ESCREVAL("ISEN«√O APROVADA")
+ESCREVAL("ISEN√á√ÉO APROVADA")
 SENAO
-ESCREVAL("ISEN«√O NEGADA")
+ESCREVAL("ISEN√á√ÉO NEGADA")
 FIMSE
 FIMSE
 FIMSE
 FIMSE
 FIMSE
-//FIM DA VALIDA«√O
-//FIM DA INSE«√O
+//FIM DA VALIDA√á√ÉO
+//FIM DA INSE√á√ÉO
 
-//INSCRI«√O
+//INSCRI√á√ÉO
 SE(enem=2)ENTAO
 ESCREVAL("INFORME SEU CPF")
 LEIA(cpfcons)
  SE (cpf=cpfcon)ENTAO
-ESCREVAL("1-CONFIRMA SUA INSCRI«√O")
+ESCREVAL("1-CONFIRMA SUA INSCRI√á√ÉO")
 ESCREVAL("2-PARA SAIR")
 LEIA(confirme)
 
 SE(confime=1)ENTAO
-ESCREVAL("INSCRI«√O REALIZADA COM SUCESSO")
+ESCREVAL("INSCRI√á√ÉO REALIZADA COM SUCESSO")
 ESCREVAL("NOME",nome)
 ESCREVAL("CPF",cpf)
 ESCREVAL("LOGIN",cpf)
 FIMSE
 FIMSE
 
-//FIM DA INSCRI«√O
+//FIM DA INSCRI√á√ÉO
 
 //CONSULTA
 SE (enem=3)ENTAO
